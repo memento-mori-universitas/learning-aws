@@ -1,4 +1,4 @@
-# Learning <Subject> Project
+# Learning AWS Project
       
 This repository is to manage the learning of a specific skillset.
 
