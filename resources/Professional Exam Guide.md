@@ -1,6 +1,6 @@
 # AWS Certified Solution Architect - Professional (SAP-CO2) Exam Guide
 
-The examam has four domains which covers the entirety of the exam.
+The exam has four domains which covers the entirety of the exam.
 
 1. Design Solutions for Organization Complexity
 
@@ -55,7 +55,7 @@ The skills required are:
 	2.1 For example, using AWS Elastic Disaster Recovert, pilot light, warm standy, and multi-site
 3. Data backup and restoration
 
-The skills required arw:
+The skills required are:
 
 - Designing disaster recovery solutions based on RTO and RPO requirements
 - Implementing architecture to automatically recover from failure
