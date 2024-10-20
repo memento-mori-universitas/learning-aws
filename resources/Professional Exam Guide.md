@@ -65,9 +65,7 @@ The skills required are:
 ### Design a multi-account AWS environment. Which requires knowledge in:
 
 1. AWS Organizations and AWS Control Tower
-2, Mult-account even notifications
+2. Mult-account even notifications
 3. AWS resource sharing across environments
 
 The skills required are:
-
-
