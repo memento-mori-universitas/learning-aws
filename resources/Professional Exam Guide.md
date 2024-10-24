@@ -1,5 +1,7 @@
 # AWS Certified Solution Architect - Professional (SAP-CO2) Exam Guide
 
+*Reference*: https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf
+
 The exam has four domains which covers the entirety of the exam.
 
 1. Design Solutions for Organization Complexity
@@ -69,3 +71,199 @@ The skills required are:
 3. AWS resource sharing across environments
 
 The skills required are:
+
+- Evaluating the most appropirate account structure for organizational requirements
+- Recommending a strategy for central logging and event notifications
+- Developing a multi-account governance model
+
+### Determine cost optimization and visibility strategies.  Which requires knowledge in:
+
+1. AWS cost and usage monitoring tools (for example, AWS Trusted Advisor), AWS Pricing Calculator, AWS Cost Explorer, AWS Budgets)
+2. AWS purchasing options (for example, Reserved Instances, Saving Plans, Spot Instances)
+3. AWS rightsizing visibility tools (for example, AWS Compute Optimizer, Amazon S3 Sotrage Lens)
+
+The skills required are:
+
+- Monitoring cost and usage with AWS tools
+- Developing an effective tagging strategy that maps cost to business units
+- Understanding how purchasing options affect cost and performance
+
+## Domain 2: Design for New Solutions
+
+### Design a deployment strategy to meet business requirements. Which requires knowledge in:
+
+- Infrastructure as code (IaC), for example, AWS CloudFormation
+- Continuos integration and Continuos delivery (CI/CD)
+- Change management process
+- Configuration management tools (for example, AWS Systems Manager)
+
+The skills required are:
+
+- Determing an application or upgrade path for new services and features
+- Selecting services to develop deployment strategies and implement appropriate rollback mechanisms
+- Adopting managed services as needed to reduce Infrastructure provisioning and patching overhead
+- Making advanced technologies accessible by delegating complex development and deployment taks to AWS
+
+### Design a solution to ensure business continuity. Which requires knowledge in:
+
+- AWS Global Infrastructure
+- AWS networking concepts (for example, Route 53, routing methods)
+- RTOs and RPOs
+- Disaster recovery scenarios (for example, backup and restore, pilot light, warm standby, multi-site)
+- Distaster recovery solutions on AWS
+
+The skills required are:
+
+- Configuring disaster recovery solutions
+- Configuring data and database replication
+- Performing distaster recovery testing
+- Architecting a backup solution that is automated, is cost-effective, and supports business continuity across multiple Availability Zones or Regions
+- Designing an architecture that provides application and Infrastructure Availability in the event of a disruption
+- Using processes and components for centralized monitoring to proactively recover from system failures
+
+### Determine security controls based on requirements. Which requires knowledge in:
+
+- IAM
+- Route tables, security groups, and network ACLs
+- Encryption options for data at rest and data in transit
+- AWS service endpoints
+- Credential management services
+- AWS managed security services (for example, AWS Shield, AWS WAF, Amazon GuardDuty, AWS Security Hub)
+
+The skills required are:
+
+- Specifying IAM users and IAM roles that adhere to the principle of least
+privilege access
+- Specifying inbound and outbound network flows by using security group
+rules and network ACL rules
+- Developing attack mitigation strategies for large-scale web applications
+- Developing encryption strategies for data at rest and data in transit
+- Specifying service endpoints for service integrations
+- Developing strategies for patch management to remain compliant with
+organizational standards
+
+### Design a strategy to meet reliability requirements. Which requires knowledge in:
+
+- AWS Global Infrastructure
+- AWS storage services and replication strategies (for example Amazon S3, Amazon RDS, Amazon ElastiCache)
+- Multi-AZ and multi-Region architectures
+- Auto scaling policies and events
+- Application integration (for example, Amazon Simple Notification Service, Amazon SNS, Amazon SWS, AWS Step Functions)
+- Service quotas and limits
+
+The skills required are:
+
+- Designing highly available application environments based on business requirements
+- Using advanced techniques to design for failure and ensure seamless system recoverability
+- Implementing loosely coupled dependencies
+- Operation and mantaining high-availability architectures (for example, application failover, database failover)
+- Using AWS managed services for high availability
+- Implementing DNS routing policies (for example, Route 53 latency-based routing, geolocation routing, simple routing)
+
+### Design a solution to meet perforance objectices. Which requires knowledge in:
+
+- Peformance monitoring technologies
+- Storage options on AWS
+- Instance familities and use cases
+- Purpose-built databases
+
+The skills required are:
+
+- Designing large-scale application architectures for a variety of access patterns
+- Designing an elastic architecture based on business objectives
+- Applying design patterns to meet performance objectives with caching, buffering and replicas.
+- Developing a process methodology for selecting purpose-built services for required tasks
+- Designing a rightsizing strategy
+
+### Determine a cost optimization strategy to meet solution goals and objects. Which requires knowledge in:
+
+- AWS cost and usage monitoring tools (for example, Cost Explorer, Trusted Advisor, AWS Pricing Calculator)
+- Pricing model (for example, Reserved Instances, Savings Plans)
+- Storage tiering
+- Data transfer costs
+- AWS managed service offerings
+
+The skills required are:
+
+- Identifying opportunities to select and rightsize infrastructure for cost-effective resources
+- Identifying appropriate pricing models
+- Performing data transfer modeling and selecting services to reduce data transfer costs
+- Developing a strategy and implemeting controls for expenditure and usage awareness
+
+## Domain 3: Continous Improvements for Existing Solutions
+
+### Determine a strategy to improve overall operational excellence. Which requires knowledge in:
+
+- Alerting and automatic remedation strategies
+- Disaster recovery planning
+- Monitoring and logging solutions (for example Amazon CloudWatch)
+- CI/CD pipelines and deployment strategies (for example, blue/geen, all-at-once, rolling)
+- Configuration management tools (for example, Systems Manager)
+
+The skills required are:
+
+- Determining the most appropriate logging and monitoring strategy
+- Evaluating current deployment processes for improvement opportunities
+- Prioritizing opportunities for automation within a solution stack
+- Recommending the appropriate AWS solution to enable configuration
+management automation
+- Engineering failure scenario activities to support and exercise an
+understanding of recovery actions
+
+### Determing a strategy to improve security. Which requires knowledge in:
+
+- Data retention, data sensitivity, and data regulatory requirements
+- Automated monitoring and remediation strategies (for example, AWS
+Config rules)
+- Secrets management (for example, Systems Manager, AWS Secrets
+Manager)
+- Principle of least privilege access
+- Security-specific AWS solutions
+- Patching practices
+- Backup practices and methods
+
+The skills required are:
+
+- Evaluating a strategy for the secure management of secrets and credentials
+- Auditing an environment for least privilege access
+- Reviewing implemented solutions to ensure security at every layer
+- Reviewing comprehensive traceability of users and services
+- Prioritizing automated responses to the detection of vulnerabilities
+- Designing and implementing a patch and update process
+- Designing and implementing a backup process
+- Employing remediation techniques
+
+### Determine a strategy to improve performance. Which requires knowledge in:
+
+- High-performing systems architectures (for example, auto scaling, instance
+fleets, placement groups)
+- Global service offerings (for example, AWS Global Accelerator, Amazon
+CloudFront, edge computing services)
+- Monitoring tool sets and services (for example, CloudWatch)
+- Service level agreements (SLAs) and key performance indicators (KPIs)
+
+The skills required are:
+
+- Translating business requirements to measurable metrics
+- Testing potential remediation solutions and making recommendations
+- Proposing opportunities for the adoption of new technologies and
+managed services
+- Assessing solutions and applying rightsizing based on requirements
+- Identifying and examining performance bottlenecks
+
+### Determine a strategy to improve reliability. Which requires skills in:
+
+- AWS Global Infrastructure
+- Data replication methods
+- Scaling methodologies (for example, load balancing, auto scaling)
+- High availability and resiliency
+- Disaster recovery methods and tools
+- Service quotas and limits
+
+The skills required are:
+
+- Understanding application growth and usage trends
+- Evaluating existing architecture to determine areas that are not sufficiently
+reliable
+- Remediating single points of failure
+- Enabling data replication, self-healing, and elastic features and services
