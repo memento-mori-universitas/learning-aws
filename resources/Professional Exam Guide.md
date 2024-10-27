@@ -251,7 +251,7 @@ managed services
 - Assessing solutions and applying rightsizing based on requirements
 - Identifying and examining performance bottlenecks
 
-### Determine a strategy to improve reliability. Which requires skills in:
+### Determine a strategy to improve reliability. Which requires knowledge in:
 
 - AWS Global Infrastructure
 - Data replication methods
@@ -267,3 +267,80 @@ The skills required are:
 reliable
 - Remediating single points of failure
 - Enabling data replication, self-healing, and elastic features and services
+
+### Identify opportunities for cost optimizations. Which requires knowledge in:
+
+- Cost-conscious architecture choices (for example, using Spot Instances, scaling policies, and rightsizing resources)
+- Price model adoptions (for example, Reserved Instances, Savings Plan)
+- Networking and data transfer costs 
+- Cost Management, alerting and reporting
+
+The skills required are:
+
+- Analyzing usage reports to identify underutilized and overutilized resources
+- Using AWS solutions to identify unused resources
+- Designing billing alarms based on expected usage patterns
+- Investigating AWS Cost and Usage Reports at a granular level
+- Using tagging for cost allocation and reporting
+
+## Domain 4: Accelerate Workload Migration and Modernization
+
+### Select existing workloads and process for potential migration. Which requires knowledge in:
+
+- Migration assessment and tracking tools (for example, AWS Migration Hub)
+- Portfolio assessment
+- Asset planning
+- Prioritization and migration of workloads (for example, wave planning)
+
+The skills required are:
+
+- Completeting an application migration assessment
+- Evaluating applications according to the seven common migration strategies (7Rs)
+- Evaluating total cost of ownership (TCO)
+
+### Determine the optimal migration approach for existing workloads. Which requires knowledge in:
+
+- Data migration options and tools (for example, AWS DataSync, AWS Transfer Family, AWS Snow Family, S3 Transfer Acceleration)
+- Application migration tools (for example, AWS Application Discovery Service, AWS Application Migration Service)
+- AWS Networking services and DNS (for example, Direct Connect, AWS Site-to-Site VPN, Route53)
+- Identify services (for example, IAM Identify Center, AWS Directory Service)
+- Database migration tools (for example, AWS Database Migration Service [AWS DMS], AWS Schema Convertion Tool [AWS SCT])
+- Governance tools (for example, AWS Control Tower, Organizations)
+
+The skills required are:
+
+- Selecting the appropriate database transfer mechanism
+- Selecting the appropriate application transfer mechanism
+- Selecting the appropriate data transfer service and migration strategy
+- Applying the appropriate security methods to migration tools
+- Selecting the appropriate governance model
+
+### Determine a new architecture for existing workloads. Which requires knowledge in:
+
+- Computing service (for example, Amazon EC2, AWS Elastic Beanstalk)
+- Containers (for example, Amazong Elastic Container Service [Amazin ECS], Amazon Elastic Kubernetes Service [Amazon EKS], AWS Fargate, Amazon Elastic Container Registry [Amazon ECR])
+- AWS storage service (for example, Amazon Elastic Block Store [Amazon EBS], Amazon Elastic File System [Amazon EFS], Amazon FSx, Amazon S3), Volume Gateway
+- Database (for example, Amazon DynamoDB, Amazon OpenSearch Service, Amazon RDS, self-managed databases on Amazon EC2)
+
+The skills required are:
+
+- Selecting the appropriate compute platform
+- Selecting the appropriate container hosting platform
+- Selecting the appropriate storage service
+- Selecting the appropriate database platform 
+
+### Determine opportunities for modernization and enhancements. Which requires knowledge in:
+
+- Serverless compute offerings (for example, AWS Lambda)
+- Containers (for example, Amazon ECS, Amazon EKS, Fargate)
+- AWS storage services (for example, Amazon S3, Amazon EFS)
+- Purpose-built database (for example, DynamoDB, Amazon Aurora Serverless, ElastiCache)
+- Integration services (for example, Amazon SQS, Amazon SNS, Amazon EventBridge, Step Functions)
+
+The skills required are:
+
+- Identifying opportunties to decouple application components
+- Identifying opportunities for serverless solutions
+- Selecting the appropriate service for containers
+- Identifying opportunities for purpose-built databases
+- Selecting the appropriate application integration service
