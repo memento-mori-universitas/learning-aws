@@ -64,16 +64,14 @@ In the following sections, we will have a product catagory, where we will go in 
         2. Finding the appropriate migration services
         3. Finding the best-fit cloud solution
 
-### Directory Structure
+### Course Structure
 
-```md
-  - data-stores
-  - networking
-  - security
-  - migrations
-  - architecture-at-scale
-  - business-continuity
-  - deployment-and-operations-management
-  - cost-management
-  - keys-to-success
-```
+- [Data Stores](./data-stores/README.md)
+- [Networking](./networking/README.md)
+- security
+- migrations
+- architecture-at-scale
+- business-continuity
+- deployment-and-operations-management
+- cost-management
+- keys-to-success
