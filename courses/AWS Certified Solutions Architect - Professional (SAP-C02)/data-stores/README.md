@@ -26,5 +26,4 @@
 
 ![Databases](../assets/comparing-databases.png)
 
-
 ### Next Up [S3](./amazon-s3/README.md)....
