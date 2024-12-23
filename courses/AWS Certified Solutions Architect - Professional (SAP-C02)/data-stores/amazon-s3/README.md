@@ -28,13 +28,17 @@ As part of the configuration of the services, you can:
 ## Managing Permissions in S3
 
 1. Bucket Policies vs IAM
-    1. Bucket Policies. Give a particular principle access to all object or a subset of objects in the policy. (Resouce-based)
-    2. IAM temporary permission in the form as a role. (Identity-based)
+    - Bucket Policies. Give a particular principle access to all object or a subset of objects in the policy. (Resouce-based)
+    - IAM temporary permission in the form as a role. (Identity-based)
 2. Sharing Across Accounts
-    1. When connecting across accounts, it is a bit more complex.  On the first AWS account, the bucket policy is not allowed, in the S3 bucket. We have to establish a permission and trust policy. Attached it to the bucket and trust policy which allows an entity from another account to assume that role.
-    2. In the second AWS account, we will create a role that gives permission to assume the role that has been granted to that account in the trust policy. Our IAM user, in the second account can assume this role, which allows them to assume the role defined in the first account.
+    - When connecting across accounts, it is a bit more complex.  On the first AWS account, the bucket policy is not allowed, in the S3 bucket. We have to establish a permission and trust policy. Attached it to the bucket and trust policy which allows an entity from another account to assume that role.
+    - In the second AWS account, we will create a role that gives permission to assume the role that has been granted to that account in the trust policy. Our IAM user, in the second account can assume this role, which allows them to assume the role defined in the first account.
 3. Connecting to Resources
-    1. Does not have to be a user.
-    2. AWS rotates the access key when using IAM
+    - Does not have to be a user.
+    - AWS rotates the access key when using IAM
 4. Things to Take Away
-    1. If we need to connect to a S3 bucket, rather than doing it over an Internet Gateway, we can use an ENI and traverse AWS Private internet. Cost is lower and latency is lower.
+    - If we need to connect to a S3 bucket, rather than doing it over an Internet Gateway, we can use an ENI and traverse AWS Private internet. Cost is lower and latency is lower.
+
+![S3 Takeaways](../../assets/amazon-s3.png)
+
+### Next up [Amazon Glacier](../amazon-glacier/README.md)...

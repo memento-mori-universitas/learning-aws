@@ -9,9 +9,13 @@ Amazon Elastic File Share is an implementation of NFS file share. It is a type o
 - It is 3x times more expensive than EBS.
 - It is 20x times more expensive than S3.
 
+![EFS](../../assets/amazon-elastic-file-service.png)
+
 ## AWS FSx
 
 An alternative to EFS, where EFS file storing cannot be solved. AWS FSx is a distributed file system. It integrates with Windows file service and provides a non-network file system.
+
+![FSx](../../assets/fsx.png)
 
 ### Four options
 
@@ -30,6 +34,16 @@ Here are a couple facts:
   - Media Processing workflows
   - Windows data anayltics
 
+![FSx Windows](../../assets/fsx-windows.png)
+
 ## AWS FSx for Lustre
 
 AWS FSx for Lustre is for high-performing distributed applications and for high-performing compute clusters. It can reliability interact with thousands of EC2 instances. It is a great use for big data and machine learning applications.
+
+![FSx Linux](../../assets/fsx-lustre.png)
+
+## Tips for FSx
+
+![FSx Tips](../../assets/fsx-takeaway.png)
+
+### Next up [Amazon Storage Gateway](../amazon-storage-gateway/README.md)...
