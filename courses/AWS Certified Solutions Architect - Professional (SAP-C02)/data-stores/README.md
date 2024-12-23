@@ -22,5 +22,9 @@
 - Atomic, Consistent, Isolated, Durable
 - Basic Availability, Soft-State, Eventual Consistency
 
+### Comparing Databases
+
+![Databases](../assets/comparing-databases.png)
+
 
 ### Next Up [S3](./amazon-s3/README.md)....
