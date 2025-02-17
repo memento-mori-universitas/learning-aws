@@ -135,17 +135,44 @@ The context of Hybrid is anytime you have on-premise data center, as well as pre
 **Direct Connect** allows you to create a private route from on-premise data center to the AWS cloud without traversing the public internet.
 
 ![Direct Connect](../../assets/direct-connect-intro.png)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
-![Direct Connect](../../assets)
+![Direct Connect](../../assets/direct-connect-endpoint.png)
+
+What if we want to connect to more VPCs? In the example above, we only have one.
+![Direct Connect](../../assets/direct-connect-end-to-end.png)
+
+You can provision a Direct Connect Gateway, which can connect to up to three virtual private gateways or transit gateways. You can also use a Public Virtual Interface to services with public endpoints such as S3 or DynamoDB
+
+## Site-to-Site VPN
+
+Fastest way to connect your on-premise network to the AWS cloud.
+
+![Direct Connect](../../assets/site-to-site-vpn-intro.png)
+
+Below are a couple examples on how to set up site-to-site VPN
+![Direct Connect](../../assets/site-to-site-vpn-connection.png)
+
+Alternatively, you can use the VPN Connection and connect to a Transit Gateway and communicate with transit gateway attachments across many VPCs within the same region.
+![Direct Connect](../../assets/site-to-site-vpc-with-tgw.png)
+
+The examples above either Direct Connect and VPC Connection require an Internet Service Provider which brings a Single Point of Failure. To mitigate, below are some examples that guarantee High Availability.
+
+## High Availability
+
+![Direct Connect](../../assets/site-to-site-high-availability-1.png)
+![Direct Connect](../../assets/site-to-site-high-availability-2.png)
+![Direct Connect](../../assets/site-to-site-high-availability-3.png)
+
+## Exam Tips
+
+In the diagram below, we have On-Prem Data Center that is using two Direct Connect connections. On the AWS side, we have VPCs on multiple regions that we would like to connect to. Each Direct Connect connection is associated with the highly available Direct Connect gateway and they will be connected through private virtual interfaces. You will also be connected to those public services using a public virtual interface.  In order to associate your on-premise data center with all the VPCs across multiple regions, your Direct Connect gateway cam be associated with transit gateways in each region.
+
+Those transit gateways will be associated with transit gateway attachments in each availability zone within each VPC. This way the On-Prem data center can connect to all the VPCs in all regions. For the VPCs to connect with each other, we will have to peer our two transit gateways, which will make it so the VPCs can communicate with each other.
+
+![Direct Connect](../../assets/network-end-diagram.png)
+
+In a similar example, the diagram below has two Direct Connect connections. And in this scenario we will need two Direct Connect gateways in our AWS environment. (A single Direct Connect gateway can support up to 3 transit gateways). In this case, we have four regions. And each Transit Gateway will be peered with each.
+
+![Direct Connect](../../assets/networking-end-diagram-direct-connect.png)
+![Direct Connect](../../assets/hybrid-cross-account-takeaway.png)
+
+### [Amazon Private Link](../private-link/README.md)...
