@@ -7,5 +7,5 @@
 - Use SQS if you are creating a new application from scratch
 - Use MQ if you want an easy low-hassle path to migrate from existing message broker for AWS.
 
-### [AWS Lambda](../aws-lambda/README.md)...
+### Up next [AWS Lambda](../aws-lambda/README.md)...
 

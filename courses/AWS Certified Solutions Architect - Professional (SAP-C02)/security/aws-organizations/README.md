@@ -10,5 +10,5 @@ Organization units are groups of accounts that share access pattern or serve a s
 
 ![AWS Accounts](../../assets/aws-orgs-multiple-accounts.png)
 
-### [Control Tower](../aws-control-tower/README.md)...
+### Up next [Control Tower](../aws-control-tower/README.md)...
 

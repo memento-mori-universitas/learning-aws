@@ -61,5 +61,5 @@ Below is an example of Authentication and Authorization
 - How can we limit the blast radius of security events?
 - How do we prevent exposing sensitive data?
 
-### [AWS Organizations](./aws-organizations/README.md)...
+### Up next [AWS Organizations](./aws-organizations/README.md)...
 

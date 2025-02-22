@@ -13,5 +13,5 @@
 
 ![Amazon QuickSight](../../assets/aws-quicksight-glue-integration.png)
 
-# [Amazon OpenSearch](../amazon-opensearch/README.md)...
+### Up next [Amazon OpenSearch](../amazon-opensearch/README.md)...
 

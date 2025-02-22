@@ -38,5 +38,5 @@ H: None of this give us any benefit. This is an example of a distracting answer.
 
 **Answer: B and F**
 
-### [Migration](../../migrations/README.md)...
+### Up next [Migration](../../migrations/README.md)...
 

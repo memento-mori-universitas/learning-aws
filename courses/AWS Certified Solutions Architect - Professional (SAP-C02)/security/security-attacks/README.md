@@ -18,5 +18,5 @@ A bad actor would flood a target web server with GET requests that would push up
 ![Attacks](../../assets/aws-security-attacks-architecture.png)
 A good example of a Web Site Architecture that is prepared for a DDoS attack
 
-### [Security Hub](../security-hub/README.md)...
+### Up next [Security Hub](../security-hub/README.md)...
 

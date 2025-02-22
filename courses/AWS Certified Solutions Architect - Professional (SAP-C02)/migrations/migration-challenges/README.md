@@ -36,5 +36,5 @@ D: Its true, going to leverage DyanmoDB
 
 E: RDS does not support Sybase
 
-### [Architecture At Scale](../../architecture-at-scale/README.md)...
+### Up next [Architecture At Scale](../../architecture-at-scale/README.md)...
 

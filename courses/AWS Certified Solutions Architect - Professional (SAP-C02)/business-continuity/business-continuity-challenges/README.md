@@ -28,4 +28,4 @@ Correct answer:
 - E: We would let the ELB do the health checks for us
 - G
 
-### [Deployment and Operations Management](../deployment-and-operations-mgmt/README.md)
+### Up next [Deployment and Operations Management](../../deployment-and-operations-mgmt/README.md)...

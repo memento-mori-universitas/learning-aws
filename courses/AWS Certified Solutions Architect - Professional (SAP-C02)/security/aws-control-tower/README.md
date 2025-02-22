@@ -14,5 +14,5 @@ You can apply account-wide service control policies or AWS config rules all from
 ![Control Tower](../../assets/aws-control-tower-example.png)
 ![Control Tower](../../assets/aws-control-tower-summary.png)
 
-### [AWS Config](../aws-config/README.md)...
+### Up next [AWS Config](../aws-config/README.md)...
 

@@ -36,4 +36,4 @@ Choreography involves the asynchronous coordination of many event producers and 
 
 ![Event Driven](../../assets/aws-serverless-use-case.png)
 
-### [Amazon SNS](../amazon-sns/README.md)
+### Up next [Amazon SNS](../amazon-sns/README.md)

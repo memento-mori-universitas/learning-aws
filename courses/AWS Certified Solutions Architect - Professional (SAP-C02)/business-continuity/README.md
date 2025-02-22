@@ -52,5 +52,4 @@ Four basic disaster recovery architectures that AWS talks about.
 
 DNS records do usually have a time to live, so there might be customer impact until the DNS entry pointing to the fail site expires.
 
-### [Storage High Availability](../storage-high-availability/README.md)...
-
+### Up next [Storage High Availability](./storage-high-availability/README.md)...

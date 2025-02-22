@@ -32,4 +32,4 @@
 
 ![DB HA Options](../../assets/business-continuity-take-away.png)
 
-### [Business Continuity Tips](../business-continuity-tips/README.md)
+### Up next [Business Continuity Tips](../business-continuity-tips/README.md)

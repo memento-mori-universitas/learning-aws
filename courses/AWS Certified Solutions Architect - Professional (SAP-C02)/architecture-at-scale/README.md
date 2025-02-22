@@ -76,5 +76,5 @@ When you setting up a EC2 Auto-Scaling Group you need to set up a launch configu
 ![architecture-scale](../assets/aws-compute-optimizer.png)
 ![architecture-scale](../assets/aws-compute-optimizer-compatability.png)
 
-### [AWS Kinesis](./aws-kinesis/README.md)...
+### Up next [AWS Kinesis](./aws-kinesis/README.md)...
 
