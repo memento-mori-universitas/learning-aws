@@ -7,4 +7,4 @@
 
 ![ledger](../../assets/amazon-qldb.png)
 
-### Up next [Amazon Managed Blockchain](../amazon-managed-blockchain/README.md)
+### Up next [Amazon Managed Blockchain](../amazon-managed-blockchain/README.md)...
