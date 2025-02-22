@@ -10,4 +10,4 @@
 The following is for dual connection if we want to have a redundant connection on AWS.
 ![AWS VPN Connectivity](../../assets/virtual-private-gateway.png)
 
-### Up next [AWS Direct Connect](../aws-direct-connect/README.md)
+### Up next [AWS Direct Connect](../aws-direct-connect/README.md)...
