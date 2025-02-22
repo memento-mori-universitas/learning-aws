@@ -68,10 +68,9 @@ In the following sections, we will have a product catagory, where we will go in 
 
 - [Data Stores](./data-stores/README.md)
 - [Networking](./networking/README.md)
-- security
-- migrations
-- architecture-at-scale
-- business-continuity
-- deployment-and-operations-management
-- cost-management
-- keys-to-success
+- [Security](./security/README.md)
+- [Migrations](./migrations/README.md)
+- [Architecture At Scale](./architecture-at-scale/README.md)
+- [Business Continuity](./business-continuity/README.md)
+- [Deployment and Operations Management](./deployment-and-operations-mgmt/README.md)
+- [Cost management](./cost-management/README.md)
