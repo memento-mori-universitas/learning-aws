@@ -51,5 +51,5 @@ D: CloudFront isn’t an option for us all it does is serve up content, it is no
 
 E: Application Load Balancer does support SSL and Sticky Session. We could create an ELB app load balancer, front it with a SSL certificate that we created in Amazon Certificate Manager and then add the new EC2 instance to the target group.
 
-### [Security](../../security/README.md)...
+### Up next [Security](../../security/README.md)...
 

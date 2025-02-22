@@ -25,5 +25,5 @@ It can also be used in Hybrid Networking by creating a shorter path to and conne
 ![Use cases](../../assets/global-accelerator-use-cases.png)
 ![Features](../../assets/global-accelerator-feature.png)
 
-### [Route 53](../route53/README.md)...
+### Up next [Route 53](../route53/README.md)...
 
