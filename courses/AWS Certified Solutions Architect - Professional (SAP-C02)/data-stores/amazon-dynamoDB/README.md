@@ -46,6 +46,7 @@ Use the same partition key and sort key and some other attributes. If we have tw
 Another use case might be for performance index:
 
 ![DynamoDB Tables](../../assets/dynamodb-performance-index.png)
+
 The replica is eventually consistent.
 
 ### Up next [DocumentDB](../amazon-documentdb/README.md)...
