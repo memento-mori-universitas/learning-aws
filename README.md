@@ -11,3 +11,4 @@ The structure is the following:
 | Courses           | Status | Resource |
 | :---------------- | :------: | :----: |
 | AWS Certified Solution Architect - Professional |   Completed   | [Link](./courses/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20(SAP-C02)/README.md)|
+| AWS Networking Practical Approaches | In Progress | [Link](./courses/%20AWS%20Networking%20Practical%20Approaches%20/README.md) |
