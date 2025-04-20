@@ -27,6 +27,9 @@ ON AWS, networking in virtualized and is available in a number of different type
 
 
 
+
+
+
 ## Resources:
 
 - https://docs.aws.amazon.com/pdfs/wellarchitected/latest/hybrid-networking-lens/hybrid-networking-lens.pdf#hybrid-networking-lens
