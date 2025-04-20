@@ -1,6 +1,6 @@
 # Practical Approaches - Network Design Best Practices
 
-### Amazon VPC
+## Amazon VPC
 
 "An Amazon VPC is not a data center and it shoul not be treated as one"
 
@@ -8,15 +8,15 @@ An Amazon VPC is a software-define network. The AWS Well-Architected Framework h
 
 ON AWS, networking in virtualized and is available in a number of different types and configurations which helps to match your networking methods with your needs.
 
-#### Product Features
+### Product Features
 
-##### Optimizing your network
+#### Optimizing your network
 
 - Amazon EBS-optmized instances
 - Amazon S3 Acceleration
 - Amazon CloudFront
 
-##### Reducing network distance and jitter
+#### Reducing network distance and jitter
 
 - Amazon Route 53 Latency routing
 - Amazon VPC endpoints
