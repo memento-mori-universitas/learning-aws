@@ -110,6 +110,9 @@ Later, if your company adds a 6th office?
 
 Just update the prefix list. No need to touch the security groups — they’ll automatically apply the new rule.
 
+### AWS Direct Connect
+
+
 
 
 ## Resources:
