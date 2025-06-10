@@ -81,3 +81,56 @@ Example: User is account A needs to scan a DynamoDB table in Accout A and dump i
 
 <img width="973" alt="Image" src="https://github.com/user-attachments/assets/e7204187-fea1-49ca-b8fc-7260ab02eec5" />
 
+## IAM Access Analyzer
+
+- Find out which resources are shared externally
+	- S3 Bucket
+	- IAM roles
+	- KMS Keys
+	- Lambda Functions Layers
+	- SQS Queues
+	- Secret Manager Secrets
+
+- Define Zone OF Trust = AWS Account or AWS Organization
+- Access outside zone of trusts => findings
+
+- IAM Access Analyzer Policy Validation
+	-	Validate your policy against IAM policy
+	- General warning
+	- Provides actionable recommendation
+
+- IAM Access Analyzer Policy Generation
+	- Generates IAM policy based on access activity
+	- CloudTrail logs is reviewed to generate the policy
+	- Review CloudTtrain Logs
+
+## STS
+
+1) Define an IAM Role within your account or cross-account
+2) Define which principals can access this IAM Role
+3) Use AWS STS (Security Token Service) to retrieve credentials and impersonate the IAM Role you have access to (AssumeRole API)
+
+Which situtations do you want to assume a role with using STS
+
+- Providing access for an IAM user in one AWS account that you own to access resources in another account that you own
+- Provide access to IAM users in AWS accounts owned by third parties
+- Provide access for services offered by AWS to AWS resources
+- Provide access for externally authenticated users
+- Ability to revoke active sessions and credentials for a role (by adding a policy using a time statement - AWSRevokeOlderSessions)
+
+### Providing Access to an IAM User in Your or Another AWS Account that you own
+
+- You can grant your IAM users permission to switch to roles within your AWS account or to roles defined in other AWS accounts that you own.
+
+Benefits:
+- You must explicity grant your user permission to assume the role.
+- Your users must actively switch to the role using the AWS Management Console
+- You can add multi-factor (MFA) protection to the role so that only users who sign in with MFA devide can assume the role
+- Least privilege + auditing using CloudTrail
+
+
+
+
+
+
+
