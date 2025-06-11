@@ -128,6 +128,27 @@ Benefits:
 - You can add multi-factor (MFA) protection to the role so that only users who sign in with MFA devide can assume the role
 - Least privilege + auditing using CloudTrail
 
+<img width="772" alt="Image" src="https://github.com/user-attachments/assets/51334d2d-0bf8-4ef9-b00e-1cc7749c77a6" />
+
+### Providing Access to AWS Accounts Owned by Third Parties
+
+- Zone of trust: accounts, organization that you own
+- Outside Zoen of Trust = 3rd parties
+- Use IAM access analyzer to find out which resources are exposed
+- For granting access to a 3rd party:
+	- The 3rd party AWS account ID
+   	- An External ID (secret between you and the 3rd party)
+   	  	- To uniquely associate with the role between you and 3rd party
+   	  	- Must be chosed by the 3rd party
+- Define permissions in the IAM policy
+
+### The confused deputy
+
+<img width="879" alt="image" src="https://github.com/user-attachments/assets/1ea21451-7017-494a-b77f-06226c88ba55" />
+
+If you are using third-party, and they need to get access to your AWS accounts, you must secure it using the STS AssumeRole API and define an external ID
+
+
 
 
 
